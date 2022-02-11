@@ -1,0 +1,2 @@
+id	Seq	Sequence
+1	M10D_11	CAADTNAYKVIF

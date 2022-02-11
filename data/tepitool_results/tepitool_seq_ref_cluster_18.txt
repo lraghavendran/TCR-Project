@@ -1,0 +1,2 @@
+id	Seq	Sequence
+1	M1HL_13	CTCSAGQGPNTEVFF
