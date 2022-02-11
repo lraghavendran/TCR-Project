@@ -1,3 +1,13 @@
+### This script takes Hamming's distance matrix for the samples and creates a network followed by cluster
+### analysis on the edges.
+
+### Install libraries
+install.packages("dplyr", dependencies = TRUE)
+install.packages("igraph", dependencies = TRUE)
+install.packages("RColorBrewer", dependencies = TRUE)
+install.packages("Polychrome", dependencies = TRUE)
+
+### Load libraries
 library('dplyr')
 library('igraph')
 library('RColorBrewer')

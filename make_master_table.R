@@ -3,6 +3,11 @@
 ### This script will create a master table compiling CDR3 sample sequence characters like, clone fraction, clone count,
 ### ic50, percentile rank, matching epitopes, source organism and the antigen.
 
+### Install libraries
+install.packages("dplyr", dependencies = TRUE)
+install.packages("tidytext", dependencies = TRUE)
+
+### Load libraries
 library('dplyr')
 library('tidytext')
 

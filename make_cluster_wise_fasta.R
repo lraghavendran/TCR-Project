@@ -2,6 +2,13 @@
 ### For existing analysis, the required file (sample_clus_membership.txt) from the make_network_cluster.R script is stored in data folder
 ### This script will create the fasta files of CDR3 sequences for samples in each cluster
 
+### Install Libraries
+install.packages("dplyr", dependencies = TRUE)
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install("Biostrings")
+
+### Load libraries
 library('dplyr')
 library("Biostrings")
 
